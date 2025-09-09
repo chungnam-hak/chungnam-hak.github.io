@@ -1,1 +1,50 @@
-# chungnam-hak.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week2</title>
+</head>
+<body>
+    <!-- 제목(주석)-->
+     <h1>안녕</h1>
+     <h2>하세</h2>
+     <h3>요!</h3>
+
+    <h1>반갑습니다.</h1>
+    <!-- 자기소개 넣기 p-단락// 앞뒤로 띄어쓰기 구분이 된다-->
+     <p>저는 충대에 재학중이며, <br>웹 프로그래밍 기초를 듣고 있습니다.</p>
+     
+
+    <!-- 하이퍼링크, 밑에 충남대학교가 링크를 담는 트리거가 된다.-->
+    <p><h3>충남대학교 사이트</h3>
+    <a href="https://plus.cnu.ac.kr/html/kr/intro.html">충남대학교 접근하기</a>,
+    <!-- a:blank는 이 하이퍼링크를 열면 새로운 창이 열린다!-->
+    <a href="http://plus.cnu.ac.kr/html/kr/intro.html" target="_blank">충남대학교 새창열기 </a> </p>
+
+
+    <!-- 이미지 담기-->
+     <h2>나의 이미지</h2> <br>
+     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진"> 
+     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진"> <br>
+     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진">
+     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진">
+     <!--파일의 위치에서 폴더를 타고 들어간 형태, 같은 위치에 있다면 img/가 필요없다!-->
+
+    <!-- 리스트-->
+     <h2>관심 분야</h2>
+     <ul>
+        <li>웹 개발</li>
+        <li>데이터 분석</li>
+        <li>인공지능</li>
+     </ul>
+     <h2>일상</h2>
+     <ol>
+        <li>운동하고</li>
+        <li>공부하기</li>
+        <li>잠자기</li>
+     </ol>
+    
+
+</body>
+</html> 
