@@ -55,24 +55,7 @@
       인라인 태그는 블록 내부에 삽입되어 블록의 일부로 출력됩니다. 주로 <span style="color:purple">&ltspan&gt</span>을
       이용하며, 블록의 내부로 삽입되기에 띄어쓰기나 줄바꿈이 실행되지 않습니다. 
       블록 태그나 인라인 태그 전부 <span style="color:blue">CSS</span>인 <span style="color:purple">style</span>을 적용하여 색상을 갖는 박스를 만들거나,
-      글씨 색상을 바꿀수 있습니다.
-      </pre>
-
-   </aside>
-
-   <footer>
-    <!-- 리스트-->
-     <h2>관심 분야</h2>
-     <ul>
-        <li>웹 개발</li>
-        <li>데이터 분석</li>
-        <li>인공지능</li>
-     </ul>
-     <h2>일상</h2>
-     <ol>
-        <li>운동하고</li>
-        <li>공부하기</li>
-        <li>숨쉬</li>
+      글씨기</li>
      </ol>
    </footer>
 
