@@ -27,7 +27,7 @@
          <a href="https://plus.cnu.ac.kr/html/kr/intro.html">충남대학교 접근하기</a>,
          <!-- a:blank는 이 하이퍼링크를 열면 새로운 창이 열린다!-->
          <a href="http://plus.cnu.ac.kr/html/kr/intro.html" target="_blank">충남대학교 새창열기 </a> </p>
-
+         <br><br>
          <a href="table.html" target="_blank">시간표 열기 </a> </p>
       </div>
    </nav>
