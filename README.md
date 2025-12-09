@@ -1,82 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>week2</title>
+    <title>웹프로그래밍 기초</title>
+
+    <link rel="stylesheet" href="Css_final assignment_base.css">
+    <link rel="stylesheet" href="Css_final assignment_Inner.css">
+    <script src="Js_final assignment_reset.js"></script>
+    <script src="Js_final assignment_base.js"></script>
+    <script src="Js_final assignment_header.js"></script>
+    <script src="Js_final assignment_nav.js"></script>
+    <script src="Js_final assignment_section.js"></script>
+    <script src="Js_final assignment_aside.js"></script>
+    <script src="Js_final assignment_footer.js"></script>
+
+
+
 </head>
+    
 <body>
-   <header>
-    <!-- 제목(주석)-->
-     <h1>안녕</h1>
-     <h2>하세</h2>
-     <h3>요!</h3>
+    <header>
+        <h1 style = "cursor: pointer;"onclick="UpSelHome()">웹프로그래밍 기초</h1>
+        <br>
+        <ul class="con">
+            <li id="upsel" , Onclick="UpSelWeb()">웹프로그래밍</li>
+            <li id="upsel" , Onclick="UpSelHTML()">HTML</li>
+            <li id="upsel" , Onclick="UpSelCSS()">CSS</li>
+            <li id="upsel" , Onclick="UpSelJS()">JAVASCRIPT</li>
+            <li id="upsel" , Onclick="UpSelQuiz()">Quiz</li>
 
-    <h1>반갑습니다.</h1>
-   </header>
-   
-   <hr>
-   <nav>
-      <div style="background-color: aliceblue; width: 400px; height: 200px; padding: 20px;">
-         <!-- 자기소개 넣기 p-단락// 앞뒤로 띄어쓰기 구분이 된다-->
-         <p>저는 충대에 재학중이며, <br>웹 프로그래밍 기초를 듣고 있습니다.</p>
-     
+        </ul>
 
-         <!-- 하이퍼링크, 밑에 충남대학교가 링크를 담는 트리거가 된다.-->
-         <p><h3><span style="color:blue"> 충남대학교 사이트</span></h3>
-         <a href="https://plus.cnu.ac.kr/html/kr/intro.html">충남대학교 접근하기</a>,
-         <!-- a:blank는 이 하이퍼링크를 열면 새로운 창이 열린다!-->
-         <a href="http://plus.cnu.ac.kr/html/kr/intro.html" target="_blank">충남대학교 새창열기 </a> </p>
-         <br><br>
-         <a href="table.html" target="_blank">시간표 열기 </a> </p>
-      </div>
-   </nav>
+        <div class="DarkMode">
+            <input type="checkbox" name="lightModeC" onClick="DarkMode();">DarkMode
 
-   <section>
-    <!-- 이미지 담기-->
-     <h2>나의 이미지</h2> <br>
-     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진"> 
-     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진"> <br>
-     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진">
-     <img src="img/chacha.png" width="200" height="200" alt="자기소개 사진">
-     <!--파일의 위치에서 폴더를 타고 들어간 형태, 같은 위치에 있다면 img/가 필요없다!-->
-   </section>
+        </div>
+    </header>
 
-   <aside>
-      <pre style="background-color:beige; padding: 20px;">
-      9월 16일에 배운것들을 정리해 보도록 하겠습니다.
-      먼저 <span style="color:red">시맨틱</span> 태그입니다. 시맨틱 태그는 사이트의 
-      각 부분을 <i>header, nav, section, aside, footer</i> 등으로 구분지어, 
-      구조화하는 것을 말합니다.
-      이중에서 section은 내부를 여러 <span style="color:blue">절(article)</span>로 또다시 
-      나눌 수 있습니다.
+    <nav>
+        <h3 style="margin: 10px;">목록</h3> 
+        
+    </nav>
 
-      다음으로 배운것은 <span style="color:red">블록태그</span>와 <span style="color:red">인라인 태그</span>입니다.
-      블록태그는 <span style="color:purple">&ltdiv&gt</span>를 이용한 태그로 하나의 블록을 만들어 나눌수 있습니다.
-      이렇게 나뉘는 블록들은 앞뒤에 줄바꿈이 추가되어 하나의 절로 구분됩니다. 
-      인라인 태그는 블록 내부에 삽입되어 블록의 일부로 출력됩니다. 주로 <span style="color:purple">&ltspan&gt</span>을
-      이용하며, 블록의 내부로 삽입되기에 띄어쓰기나 줄바꿈이 실행되지 않습니다. 
-      블록 태그나 인라인 태그 전부 <span style="color:blue">CSS</span>인 <span style="color:purple">style</span>을 적용하여 색상을 갖는 박스를 만들거나,
-      글씨 색상을 바꿀수 있습니다.
-      </pre>
+    <section> <h3 style="padding: 5px;">내용 정리</h3></section>
+    <aside>
+        <div id="log" style="background-color: rgb(173, 201, 224); height: 150px; width: 100%; padding: 5px;">
+            로그인
+            <hr>
+            <input type="text" , id="id" , width="3px" placeholder="아이디"><br>
+            <input type="password" , id="pw" , width="3px" placeholder="비밀번호"><br>
+            <input type="button" onclick="LoginStart();" value="로그인">
+            <div style="color: yellow;">
+                *임시 제공* [아이디: id, 비밀번호: pw]<br>
+                
+            </div>
+        </div>
+        <div id="mesage" style="background-color: rgb(255, 194, 63); height: 80%; width: 100%; padding: 5px;">
+                <h4>로그인 후 이용이 가능합니다.</h4>    
+                
+        </div>
+        
+    </aside>
 
-   </aside>
+    <footer>
+        <H3>부가 설명</h3>
+        <p style="padding: 5px;">
+            이곳은 웹프로그래밍 개념 선택시<br>
+            부가 설명이 정리되는 곳입니다.
+        </p>
+    </footer>
 
-   <footer>
-    <!-- 리스트-->
-     <h2>관심 분야</h2>
-     <ul>
-        <li>웹 개발</li>
-        <li>데이터 분석</li>
-        <li>인공지능</li>
-     </ul>
-     <h2>일상</h2>
-     <ol>
-        <li>운동하고</li>
-        <li>공부하기</li>
-        <li>숨쉬기</li>
-     </ol>
-   </footer>
 
+    <!-- template 보통 body의 가장 아래에 둔다 
+     template를 이용하는 방법도 좋지만, 이를 남발하면 
+     HTML의 길이가 너무 길어지기에 ``로 만들어서 코드 내에서
+     바로 innerHTML에 넣는 방식으로 변경한다.-->
+
+    <!-- Nav 선택지 -->
+     <!--  
+    <template id="Nav_Base">
+        <h3>목록</h3><br>
+    </template>  -->
+    
+    <div id="img_popup" style="
+    display:none;
+    background-color: aliceblue;
+    position:fixed;
+    top:50%;
+    left:50%;
+    padding:20px;
+    transform: translate(-50%, -50%);
+    ">
+        <img id="popup_img" onclick="OffImgView()" src="" style="height:300px;"><br>
+        <span style="color: blue;">*클릭으로 닫습니다.</span>
+    </div>
+
+
+    
 </body>
+
 </html> 
