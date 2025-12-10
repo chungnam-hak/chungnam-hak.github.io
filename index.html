@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹프로그래밍 기초</title>
+
+    <link rel="stylesheet" href="Css_final assignment_base.css">
+    <link rel="stylesheet" href="Css_final assignment_Inner.css">
+    <script src="Js_final assignment_reset.js"></script>
+    <script src="Js_final assignment_base.js"></script>
+    <script src="Js_final assignment_header.js"></script>
+    <script src="Js_final assignment_nav.js"></script>
+    <script src="Js_final assignment_section.js"></script>
+    <script src="Js_final assignment_aside.js"></script>
+    <script src="Js_final assignment_footer.js"></script>
+
+
+
+</head>
+    
+<body>
+    <header>
+        <h1 style = "cursor: pointer;"onclick="UpSelHome()">웹프로그래밍 기초</h1>
+        <br>
+        <ul class="con">
+            <li id="upsel" , Onclick="UpSelWeb()">웹프로그래밍</li>
+            <li id="upsel" , Onclick="UpSelHTML()">HTML</li>
+            <li id="upsel" , Onclick="UpSelCSS()">CSS</li>
+            <li id="upsel" , Onclick="UpSelJS()">JAVASCRIPT</li>
+            <li id="upsel" , Onclick="UpSelQuiz()">Quiz</li>
+
+        </ul>
+
+        <div class="DarkMode">
+            <input type="checkbox" name="lightModeC" onClick="DarkMode();">DarkMode
+
+        </div>
+    </header>
+
+    <nav>
+        <h3 style="margin: 10px;">목록</h3> 
+        
+    </nav>
+
+    <section> <h3 style="padding: 5px;">내용 정리</h3></section>
+    <aside>
+        <div id="log" style="background-color: rgb(173, 201, 224); height: 150px; width: 100%; padding: 5px;">
+            로그인
+            <hr>
+            <input type="text" , id="id" , width="3px" placeholder="아이디"><br>
+            <input type="password" , id="pw" , width="3px" placeholder="비밀번호"><br>
+            <input type="button" onclick="LoginStart();" value="로그인">
+            <div style="color: yellow;">
+                *임시 제공* [아이디: id, 비밀번호: pw]<br>
+                
+            </div>
+        </div>
+        <div id="mesage" style="background-color: rgb(255, 194, 63); height: 80%; width: 100%; padding: 5px;">
+                <h4>로그인 후 이용이 가능합니다.</h4>    
+                
+        </div>
+        
+    </aside>
+
+    <footer>
+        <H3>부가 설명</h3>
+        <p style="padding: 5px;">
+            이곳은 웹프로그래밍 개념 선택시<br>
+            부가 설명이 정리되는 곳입니다.
+        </p>
+    </footer>
+
+
+    <!-- template 보통 body의 가장 아래에 둔다 
+     template를 이용하는 방법도 좋지만, 이를 남발하면 
+     HTML의 길이가 너무 길어지기에 ``로 만들어서 코드 내에서
+     바로 innerHTML에 넣는 방식으로 변경한다.-->
+
+    <!-- Nav 선택지 -->
+     <!--  
+    <template id="Nav_Base">
+        <h3>목록</h3><br>
+    </template>  -->
+    
+    <div id="img_popup" style="
+    display:none;
+    background-color: aliceblue;
+    position:fixed;
+    top:50%;
+    left:50%;
+    padding:20px;
+    transform: translate(-50%, -50%);
+    ">
+        <img id="popup_img" onclick="OffImgView()" src="" style="height:300px;"><br>
+        <span style="color: blue;">*클릭으로 닫는다.</span>
+    </div>
+
+
+    
+</body>
+
+</html>
