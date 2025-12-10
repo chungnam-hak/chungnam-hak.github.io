@@ -9,7 +9,7 @@ function S_Web(){
     s.innerHTML = `
     <h3 style="padding: 5px;">웹프로그래밍</h3>
         <img src="img/Web_base.png" alt="오리엔테이션_p.6", title = "오리엔테이션_p.6" style="position: relative; left: 200px; height: 300px; clip-path: inset(10px 10px 30px 10px);">
-        <div style = "margin: 20px 50px; line-height: 1.6; margin-top: 0; position:relative; bottom: 20px;">
+        <div style = "margin: 20px 50px; line-height: 1.6; margin-top: 0; position:relative; bottom: 40px;">
             &emsp;웹프로그래밍은 인터넷에서 동작하는 웹사이트와 웹 애플리케이션을 만드는 기술을 말한다. 우리가 매일 사용하는 뉴스 사이트, 쇼핑몰, 포털 서비스, 블로그 등은 <br>
             모두 웹프로그래밍으로 만들어진다. 먼저, <span id = "upsel" onclick="F_Web_HTML()" style="color:blue; padding : 0px;">HTML</span>은 <span style="color:red">웹페이지의 구조를 만드는 가장 기본적인 언어</span>이다. HTML은 여러 태그(tag) 로 구성되며, 태그는 &lt;title&gt;과 <br>
             같은 형태의 꺾쇠괄호(&lt; &gt;) 안에 들어 있는 단어로 작성된다. 웹의 모든 구조(제목, 문단, 표, 이미지 위치 등)는 HTML 태그로 정의된다. <br>
@@ -250,4 +250,5 @@ function S_CSS(){
 function S_JS(){
 
 }
+
 
