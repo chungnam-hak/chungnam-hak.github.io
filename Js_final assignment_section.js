@@ -291,7 +291,7 @@ function S_CSS_Make(){
                     <li>&lt;link&gt; 태그 이용 &emsp;<span id = "li_Sel" onclick = "OnImgView('img/CSS_sc_3.png','600px')" style = "color:blue;"><strong>*예시</strong></span></li><br> 
                     <li>@import 이용 &emsp;<span id = "li_Sel" onclick = "OnImgView('img/CSS_sc_4.png','600px')" style = "color:blue;"><strong>*예시</strong></span></li> 
                 </ul>
-            </li><br>
+            </li>
         </ol>   
         &emsp;&emsp;<span id = "li_Sel" onclick = "F_CSS_priority()"><strong>* 3가지 방식의 스타일시트에는 우선순위가 있다.</strong></span>
         `
@@ -415,4 +415,5 @@ function S_CSS_ani(){
 function S_JS(){
 
 }
+
 
