@@ -282,7 +282,7 @@ function S_CSS_Make(){
                 </p>
             </li>
             <h4><li> style 속성에 스타일 시트을 작성하는 방법 &emsp;<span id = "li_Sel" onclick = "OnImgView('img/CSS_sc_2.png','600px')" style = "color:blue;">*예시</span></h4>
-                <img src="img/CSS_Tag_Style.png" title = "6주차_p.10" style="position: relative; height: 140px; margin: 0; padding: 0;">
+                <img src="img/CSS_Tag_Style.png" title = "6주차_p.10" style="position: relative; height: 120px; margin: 0; padding: 0;">
                 
             </li>
             <h4><li>스타일 시트를 별도의 파일로 만들어서 HTML에서 참조하는 방법 </h4>
@@ -292,7 +292,7 @@ function S_CSS_Make(){
                 </ul>
             </li>
         </ol>   
-        &emsp;&emsp;<span id = "li_Sel" onclick = "F_CSS_priority()"><strong>* ㅗ3가지 방식의 스타일시트에는 우선순위가 있다.</strong></span>
+        &emsp;&emsp;<span id = "li_Sel" onclick = "F_CSS_priority()"><strong>* 3가지 방식의 스타일시트에는 우선순위가 있다.</strong></span>
         `
 }
 //3-3 selector
@@ -414,6 +414,7 @@ function S_CSS_ani(){
 function S_JS(){
 
 }
+
 
 
 
