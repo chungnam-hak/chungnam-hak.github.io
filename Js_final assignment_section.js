@@ -292,7 +292,7 @@ function S_CSS_Make(){
                 </ul>
             </li>
         </ol>   
-        &emsp;&emsp;<span id = "li_Sel" onclick = "F_CSS_priority()"><strong>* 3가지 방식의 스타일시트에는 우선순위가 있다.</strong></span>
+        &emsp;&emsp;<span id = "li_Sel" onclick = "F_CSS_priority()"><strong>* ㅗ3가지 방식의 스타일시트에는 우선순위가 있다.</strong></span>
         `
 }
 //3-3 selector
@@ -414,6 +414,7 @@ function S_CSS_ani(){
 function S_JS(){
 
 }
+
 
 
 
