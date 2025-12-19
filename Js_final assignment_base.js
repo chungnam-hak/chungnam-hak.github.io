@@ -33,6 +33,7 @@ function CheckClear(){
     {
         alert("모든 내용을 학습했습니다. 수고하셨습니다.");
         document.getElementById("AllC").style.display = "block";
+        AllCheck = true;
     }
     
 }
@@ -127,4 +128,5 @@ function OffImgView(){
     //팝업 숨기기
     document.getElementById("img_popup").style.display = "none";
 }
+
 
